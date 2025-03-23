@@ -18,15 +18,15 @@ int main()
     }
     logger.setFileOutput(true);
 
-    // // 记录不同级别的日志
+    // 记录不同级别的日志
     LOG_DEBUG("This is a debug log");
     LOG_INFO("这是一个信息日志");
     LOG_WARN("这是一个警告日志");
     LOG_ERROR("这是一个错误日志");
     LOG_FATAL("这是一个致命错误日志");
 
-    // // 使用格式化日志
-    // LOG_INFOF("程序运行到第 %d 步，状态: %s", 42, "正常");
+    // 使用格式化日志
+    LOG_INFOF("程序运行到第 %d 步，状态: %s", 42, "正常");
 
     return 0;
 }
